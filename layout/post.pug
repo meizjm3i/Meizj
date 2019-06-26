@@ -1,0 +1,9 @@
+extends includes/layout.pug
+
+block content
+  #recent-posts
+    a#blogTitle=config.author+"'s Blog"
+  article#post
+    h1#postTitle= page.title
+    != page.content
+  #paginator!= paginator()

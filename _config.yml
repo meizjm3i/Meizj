@@ -1,0 +1,30 @@
+
+# html lang
+language: en
+
+# main menu navigation
+menu:
+  Home: /
+  About: /about
+  Archives: /archives
+  Github: https://github.com/meizjm3i
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/meizj.css
+- /css/prettify.css
+- /css/tomorrow-night-blue.css
+
+scripts:
+- /js/prettify.js
+
+highlight:
+  enable: false
+  line_number: false
+  auto_detect: false
+  tab_replace: false
+
+
+
+# scripts loaded in the end of the body
+
