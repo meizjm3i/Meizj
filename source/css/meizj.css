@@ -19,6 +19,40 @@ img{
 tr{
   width:600px;
 }
+blockquote {
+  margin: 30px 0 30px 4%;
+  border-left: 3px solid #c6d5e1;
+  padding: 5px 4%;
+  font: italic 700 18px 'Domine', Serif;
+  line-height: 38px
+}
+
+code{
+  font-weight:bold;
+}
+
+p{
+  font-size:16px;
+}
+
+h1{
+  font-size:40px;
+}
+h2{
+  font-size:34px;
+}
+h3{
+  font-size:28px;
+}
+h4{
+  font-size:24px;
+}
+h5{
+  font-size:20px;
+}
+h6{
+  font-size:18px;
+}
 
 
 #menu-inner{
