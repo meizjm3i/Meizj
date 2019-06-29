@@ -14,6 +14,8 @@ stylesheets:
 - /css/meizj.css
 - /css/prettify.css
 - /css/tomorrow-night-blue.css
+- /css/screen.css
+- /css/tag.css
 
 scripts:
 - /js/prettify.js

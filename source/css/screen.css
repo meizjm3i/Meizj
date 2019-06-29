@@ -1,0 +1,22 @@
+@media screen and (max-width: 1200px){
+  #menuLabel{
+    display:none;
+  }
+  .recent-post-item{
+    position: relative;
+    left:20%;
+    margin:30px auto;
+  }
+}
+
+@media screen and (max-width: 800px){
+  #menuLabel{
+    display:none;
+  }
+  .recent-post-item{
+    position: relative;
+    left:3%;
+    margin:30px auto;
+    
+  }
+}
