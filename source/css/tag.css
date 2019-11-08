@@ -1,6 +1,4 @@
-html{
-  font-size:1em;
-}
+
 
 body {
   margin: 4rem;
@@ -11,7 +9,6 @@ body {
 a{
   text-decoration:none;
   color: #39393C;
-  font:400 18px/1.62 "Georgia","Xin Gothic","Hiragino Sans GB","Droid Sans Fallback","Microsoft YaHei",sans-serif;
 }
 
 
@@ -37,7 +34,7 @@ code{
 }
 
 p{
-  font-size:1.1em;
+  font-size:1.4em;
 }
 
 h1{
@@ -57,4 +54,8 @@ h5{
 }
 h6{
   font-size:18px;
+}
+
+li{
+  font-size:1.4em;
 }

@@ -7,7 +7,7 @@ menu:
   Home: /
   About: /about
   Archives: /archives
-  Github: https://github.com/meizjm3i
+  Github: https://github.com/meizjm3i/Meizj
 
 # stylesheets loaded in the <head>
 stylesheets:
@@ -19,6 +19,7 @@ stylesheets:
 
 scripts:
 - /js/prettify.js
+- /js/meizj.js
 
 highlight:
   enable: false
