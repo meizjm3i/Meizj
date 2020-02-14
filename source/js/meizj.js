@@ -10,14 +10,17 @@ function showArticleIndex() {
     console.log(labelList.length);
 
     for(var i=0;i<labelList.length;i++){
-        if($(labelList[i]).is("h1")){
-            h2List = new Array();
-            h1List.push({
-                node:$(labelList[i]),
-                id:i,
-                children:h2List
-            })
+        if(i!=0){
+            if($(labelList[i]).is("h1")){
+                h2List = new Array();
+                h1List.push({
+                    node:$(labelList[i]),
+                    id:i,
+                    children:h2List
+                })
+            }
         }
+        
 
         if($(labelList[i]).is("h2")){
             h3List = new Array();
@@ -43,9 +46,9 @@ function showArticleIndex() {
         tocList.forEach(function(toc){
             toc.node.before('<span class="anchor" id="_label'+toc.id+'"></span>');
             if(toc.children == 0){
-                content += '<li><a href="#_label'+toc.id+'">'+toc.node.text()+'</a></li>';
+                content += '<li><a class="bar" href="#_label'+toc.id+'">'+toc.node.text()+'</a></li>';
             }else {
-                content += '<li><a href="#_label'+toc.id+'">'+toc.node.text()+'</a>'+show(toc.children)+'</li>';
+                content += '<li><a class="bar" href="#_label'+toc.id+'">'+toc.node.text()+'</a>'+show(toc.children)+'</li>';
             }
         })
 

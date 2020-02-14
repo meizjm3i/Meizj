@@ -1,61 +1,71 @@
 
 
 body {
-  margin: 4rem;
-  background-color: #fff;
+    margin: 4rem;
+    background-color: #fff;
+    
+  }
   
-}
+  a{
+    text-decoration:none;
+    color: #39393C;
+    font: 400 18px/1.62 "Georgia","Xin Gothic","Hiragino Sans GB","Droid Sans Fallback","Microsoft YaHei",sans-serif;
+  }
+  
+  
+  img{
+    width:860px;
+  }
+  
+  tr{
+    width:600px;
+  }
+  blockquote {
+    margin: 30px 0 30px 4%;
+    border-left: 3px solid #c6d5e1;
+    padding: 5px 4%;
+    font: italic 700 18px 'Domine', Serif;
+    line-height: 38px
+  }
+  
+  code{
+    padding: 2px 6px;
+    margin: 0 5px;
+    background: #f3f3f3;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+  }
+  
+  p{
+    line-height: 1.8em;
+  }
+  h1{
+    font:400 32px/1 "Open Sans","Hiragino Sans GB",sans-serif;
 
-a{
-  text-decoration:none;
-  color: #39393C;
-}
+  }
+  h2{
+    font:400 28px/1 "Open Sans","Hiragino Sans GB",sans-serif;
+ 
+  }
+  h3{
+    font:400 24px/1 "Open Sans","Hiragino Sans GB",sans-serif;
 
+  }
+  h4{
+    font:400 20px/1 "Open Sans","Hiragino Sans GB",sans-serif;
+ 
+  }
+  h5{
+    font:400 16px/1 "Open Sans","Hiragino Sans GB",sans-serif;
+ 
+  }
+  h6{
+    font:400 12px/1 "Open Sans","Hiragino Sans GB",sans-serif;
+   
+  }
 
-img{
-  width:860px;
-}
-
-tr{
-  width:600px;
-}
-blockquote {
-  margin: 30px 0 30px 4%;
-  border-left: 3px solid #c6d5e1;
-  padding: 5px 4%;
-  font: italic 700 18px 'Domine', Serif;
-  line-height: 38px
-}
-
-code{
-  font-weight:bold;
-  background: rgb(247, 215, 215);
-  line-height: 1em;
-}
-
-p{
-  font-size:1.4em;
-}
-
-h1{
-  font-size:40px;
-}
-h2{
-  font-size:34px;
-}
-h3{
-  font-size:28px;
-}
-h4{
-  font-size:24px;
-}
-h5{
-  font-size:20px;
-}
-h6{
-  font-size:18px;
-}
-
-li{
-  font-size:1.4em;
-}
+  li{
+    padding: 0 0 0 3%;
+    line-height: 1.8em;
+  }
+  

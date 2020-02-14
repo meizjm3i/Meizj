@@ -14,15 +14,18 @@
 
 #blogTitle{
   position: relative;
-  left:30%;
+  left:40%;
   font-size:2rem;
+  font-family: Baskerville,Georgia,"Liberation Serif",Kaiti SC,STKaiti,AR PL UKai CN,AR PL UKai HK,AR PL UKai TW,AR PL UKai TW MBE,AR PL KaitiM GB,KaiTi,KaiTi_GB2312,DFKai-SB,TW\\-Kai,serif;
+
 }
 
 .recent-post-item{
   position: relative;
-  left:30%;
+  left:40%;
   margin:30px auto;
   font-size:1.4em;
+  font-family: Baskerville,Georgia,"Liberation Serif",Kaiti SC,STKaiti,AR PL UKai CN,AR PL UKai HK,AR PL UKai TW,AR PL UKai TW MBE,AR PL KaitiM GB,KaiTi,KaiTi_GB2312,DFKai-SB,TW\\-Kai,serif;
 }
 
 
@@ -43,10 +46,14 @@
   width:50%;
 }
 
+article p {
+  font-size: 18px;
+}
+
 #post{
   position: relative;
-  left:25%;
-  padding-top:5%;
+  left: 50%;
+  top: 50%;
 
 }
 #datetime{
@@ -78,8 +85,7 @@
   width:860px;
   left:10%;
   padding:65px 0 25px;
-  /* font-family: Palatino, Optima, Georgia, serif; */
-  font-family: Baskerville,Georgia,"Liberation Serif",Kaiti SC,STKaiti,AR PL UKai CN,AR PL UKai HK,AR PL UKai TW,AR PL UKai TW MBE,AR PL KaitiM GB,KaiTi,KaiTi_GB2312,DFKai-SB,TW\\-Kai,serif;
+  font: 400 16px/1 "Open Sans","Hiragino Sans GB",sans-serif;
 }
 
 #postTitle{
@@ -99,13 +105,13 @@
 
 #footer {
   color: gray;
-  font-size: 1.4em;
+  font-size: 18px;
   text-align: center;
-  margin-top: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  line-height: 34px;
+  padding: 25px 0;
+
   border-top: 1px solid rgba(0,0,0,0.1);
-  font:400 18px/1.62 "Georgia","Xin Gothic","Hiragino Sans GB","Droid Sans Fallback","Microsoft YaHei",sans-serif;
+  font:400 18px/1 "Open Sans","Hiragino Sans GB",sans-serif;
 }
 #toc{
   list-style-type:none;
@@ -134,4 +140,14 @@
   -moz-transition: 0.1s;
   -ms-transition: 0.1s;
   -o-transition: 0.1s;
+}
+
+#bar{
+  text-decoration:none;
+  color: #39393C;
+  font: 400 18px/1 "Open Sans","Hiragino Sans GB",sans-serif;
+}
+
+article a{
+  color: #026ed2;
 }
